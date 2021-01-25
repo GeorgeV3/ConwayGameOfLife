@@ -9,7 +9,10 @@ change according to the following rules:
 2) Any live cell with more than three live neighbours dies, as if by overcrowding.
 3) Any live cell with two or three live neighbours lives on to the next generation.
 4) Any dead cell with exactly three live neighbours becomes a live cell.
+
 A neighbour is defined as a cell directly to the left, right, top, or bottom of the current cell.
+
+
 Your implementation should have a starting state (can be hard coded) and be able to calculate the
 state after the next generation.
 For output you can just write the 10x10 grid to the console.
